@@ -303,10 +303,11 @@ h3.my-profession {
   color: var(--text-black-700);
 }
 .home .home-img {
-  flex: 0 0 40%;
-  max-width: 40%;
-  text-align: center;
+  flex: 0 0 100%;
+  max-width: fit-content;
   position: relative;
+  margin: auto;
+  border-radius: 5px;
 }
 .home-img::after {
   content: "";
@@ -315,8 +316,8 @@ h3.my-profession {
   width: 80px;
   border-bottom: 10px solid var(--skin-color);
   border-right: 10px solid var(--skin-color);
-  right: 20px;
-  bottom: -40px;
+  right: -24px;
+  bottom: -30px;
 }
 .home-img::before {
   content: "";
