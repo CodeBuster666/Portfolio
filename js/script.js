@@ -1,11 +1,11 @@
-/* ============================== typing animation ============================ */
+/* typing animation  */
 var typed = new Typed(".typing", {
     strings: ["", "UI / UX Designer", "Web Developer", "Video Editor", "Mobile Developer"],
     typeSpeed: 100,
     BackSpeed: 60,
     loop: true
 })
-/* ============================== Aside ============================ */
+/*  Sidepanel  */
 const nav = document.querySelector(".nav"),
     navList = nav.querySelectorAll("li"),
     totalNavList = navList.length,

@@ -142,7 +142,7 @@ ul {
   box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
 /* aside */
-.aside {
+.sidepanel {
   width: 270px;
   background: var(--bg-black-100);
   position: fixed;
@@ -157,13 +157,13 @@ ul {
   z-index: 10;
   transition: all 0.3s ease;
 }
-.aside .logo {
+.sidepanel .logo {
   position: absolute;
   top: 50px;
   font-size: 30px;
   text-transform: capitalize;
 }
-.aside .logo a {
+.sidepanel .logo a {
   color: var(--text-black-900);
   font-weight: 700;
   padding: 15px 20px;
@@ -172,11 +172,11 @@ ul {
   position: relative;
   font-family: "Clicker Script", cursive;
 }
-.aside .logo a span {
+.sidepanel .logo a span {
   font-family: "Clicker Script", cursive;
   font-size: 40px;
 }
-.aside .logo a::before {
+.sidepanel .logo a::before {
   content: "";
   position: absolute;
   width: 20px;
@@ -186,7 +186,7 @@ ul {
   bottom: 0;
   left: 0;
 }
-.aside .logo a::after {
+.sidepanel .logo a::after {
   content: "";
   position: absolute;
   width: 20px;
@@ -196,7 +196,7 @@ ul {
   top: 0;
   right: 0;
 }
-.aside .nav-toggler {
+.sidepanel .nav-toggler {
   height: 40px;
   width: 45px;
   border: 1px solid var(--bg-black-50);
@@ -211,17 +211,17 @@ ul {
   justify-content: center;
   transition: all 0.3s ease;
 }
-.aside .nav-toggler span {
+.sidepanel .nav-toggler span {
   height: 2px;
   width: 18px;
   background: var(--skin-color);
   display: inline-block;
   position: relative;
 }
-.aside .nav-toggler.open span {
+.sidepanel .nav-toggler.open span {
   background-color: transparent;
 }
-.aside .nav-toggler span::before {
+.sidepanel .nav-toggler span::before {
   content: "";
   height: 2px;
   width: 18px;
@@ -230,11 +230,11 @@ ul {
   top: -6px;
   left: 0;
 }
-.aside .nav-toggler.open span::before {
+.sidepanel .nav-toggler.open span::before {
   transform: rotate(45deg);
   top: 0;
 }
-.aside .nav-toggler span::after {
+.sidepanel .nav-toggler span::after {
   content: "";
   height: 2px;
   width: 18px;
@@ -243,18 +243,18 @@ ul {
   top: 6px;
   left: 0;
 }
-.aside .nav-toggler.open span::after {
+.sidepanel .nav-toggler.open span::after {
   transform: rotate(-45deg);
   top: 0;
 }
-.aside .nav {
+.sidepanel .nav {
   margin-top: 50px;
 }
-.aside .nav li {
+.sidepanel .nav li {
   margin-bottom: 20px;
   display: block;
 }
-.aside .nav li a {
+.sidepanel .nav li a {
   font-size: 16px;
   font-weight: 600;
   display: block;
@@ -262,10 +262,10 @@ ul {
   color: var(--text-black-900);
   padding: 5px 15px;
 }
-.aside .nav li a.active {
+.sidepanel .nav li a.active {
   color: var(--skin-color);
 }
-.aside .nav li a i {
+.sidepanel .nav li a i {
   margin-right: 15px;
 }
 /* home */
