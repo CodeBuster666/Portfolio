@@ -499,16 +499,16 @@ h3.my-profession {
   text-align: justify;
   color: var(--text-black-700);
 }
-/* service */
-.service .container {
+/* skills */
+.skills .container {
   padding-bottom: 40px;
 }
-.service .service-item {
+.skills .skills-item {
   margin-bottom: 30px;
   flex: 0 0 33.33%;
   max-width: 33.33%;
 }
-.service .service-item .service-item-inner {
+.skills .skills-item .skills-item-inner {
   background-color: var(--bg-black-100);
   border: 1px solid var(--bg-black-50);
   border-radius: 10px;
