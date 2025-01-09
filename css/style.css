@@ -509,7 +509,7 @@ h3.my-profession {
   max-width: 33.33%;
 }
 .skills .skills-item .skills-item-inner {
-  background-color: var(--bg-black-100);
+  background-color: var(--bg-black-700);
   border: 1px solid var(--bg-black-50);
   border-radius: 10px;
   padding: 30px 15px;
@@ -566,6 +566,15 @@ h3.my-profession {
   color: var(--text-black-900);
   font-weight: 500;
 }
+
+.portfolio .portfolio-heading h3 {
+  color: var(--text-black-900);
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 0%;
+  padding: 0%;
+}
+
 .portfolio .portfolio-item {
   flex: 0 0 33.33%;
   max-width: 33.33%;
