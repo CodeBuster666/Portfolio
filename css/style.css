@@ -138,7 +138,10 @@ ul {
 .shadow-dark {
   box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
 }
-/* aside */
+
+
+
+/* Side Panel */
 .sidepanel {
   width: 270px;
   background: var(--bg-black-100);
@@ -265,6 +268,9 @@ ul {
 .sidepanel .nav li a i {
   margin-right: 15px;
 }
+
+
+
 /* home */
 .home {
   min-height: 100vh;
@@ -331,6 +337,9 @@ h3.my-profession {
   border-radius: 5px;
   height: 400px;
 }
+
+
+
 /* About */
 .about .about-content {
   flex: 0 0 100%;
@@ -564,7 +573,6 @@ h3.my-profession {
 
 
 
-
 /* portfolio */
 .portfolio .container {
   padding-bottom: 40px;
@@ -604,6 +612,9 @@ h3.my-profession {
   width: 100%;
   display: block;
 }
+
+
+
 /* contact */
 .contact-title {
   color: var(--skin-color);
@@ -766,13 +777,13 @@ h3.my-profession {
   }
 } */
 
-.centerr {
+.center {
   display: flex;
   align-items: center !important;
   justify-content: center !important;
   margin-bottom: 20px;
 }
-.mybtnn {
+.mybtn {
   text-align: center;
 }
 .scl {
